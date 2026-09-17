@@ -1,40 +1,20 @@
 {
-  "fill" : {
-    "automatic-gradient" : "extended-srgb:0.00000,0.47843,1.00000,1.00000"
-  },
-  "groups" : [
-    {
-      "layers" : [
-        {
-          "image-name" : "expo-symbol 2.svg",
-          "name" : "expo-symbol 2",
-          "position" : {
-            "scale" : 1,
-            "translation-in-points" : [
-              1.1008400065293245e-05,
-              -16.046875
-            ]
-          }
-        },
-        {
-          "image-name" : "grid.png",
-          "name" : "grid"
-        }
-      ],
-      "shadow" : {
-        "kind" : "neutral",
-        "opacity" : 0.5
-      },
-      "translucency" : {
-        "enabled" : true,
-        "value" : 0.5
+  "expo": {
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#097f34",
+      "imageWidth": 449
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#097f34"
       }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
-  ],
-  "supported-platforms" : {
-    "circles" : [
-      "watchOS"
-    ],
-    "squares" : "shared"
   }
 }
