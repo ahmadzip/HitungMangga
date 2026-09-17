@@ -4,6 +4,15 @@ Aplikasi Expo sederhana untuk mencatat berat hasil panen mangga dan menghitung b
 
 ---
 
+## Tampilan
+
+<p align="center">
+  <img src="assets/preview/home.jpeg" alt="Halaman utama HitungMangga" width="280" />
+  <img src="assets/preview/settings.jpeg" alt="Halaman pengaturan HitungMangga" width="280" />
+</p>
+
+---
+
 ## Fitur
 
 - **Jenis Mangga:** Tambah dan kelola jenis mangga sendiri.
